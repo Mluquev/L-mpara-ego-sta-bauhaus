@@ -9,8 +9,11 @@ function setup() {
   fill(255,255,255)
   ellipse(236, 176, 40, 40);
 
-   ellipse(246, 176, 40, 40);
-   ellipse(146, 76, 20, 20);
+   ellipse(236, 156, 40, 40);
+   fill(0,0,0)
+   ellipse(236, 186, 20, 20);
+    
+
   
   describe('A white trapezoid with a black outline drawn on a gray canvas.');
 }
