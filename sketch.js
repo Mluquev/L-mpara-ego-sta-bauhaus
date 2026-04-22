@@ -90,6 +90,6 @@ function onFaceResults(results) {
   const landmarks = results.multiFaceLandmarks[0];
   const nose = landmarks[1];
 
-  targetX = nose.x * width;
+  targetX = (1 - nose.x) * width;
   targetY = nose.y * height;
 }
